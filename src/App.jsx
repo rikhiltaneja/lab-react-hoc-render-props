@@ -1,12 +1,15 @@
 import './App.css';
-import LikeImage from './components/LikeImage';
-import LikePost from './components/LikePost';
+import LikeImage from './components/Project-2/LikeImage';
+import LikePost from './components/Project-2/LikePost';
+
+
 
 function App() {
   return (
-    <div>
-      <h3>Some Blog</h3>
-      <div className='buttons'>
+    <div >
+
+      <div className='container1' > 
+        <h1>Some Blogs using HOC</h1>
         <LikePost/>
         <LikeImage/>
       </div>
